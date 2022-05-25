@@ -11,10 +11,11 @@ function selected (event) {
 };
 
 const colors = document.getElementsByClassName('color');
-
 for (let element of colors) {
   element.addEventListener('click', selected);
 };
+
+
 
 function changeColor (event) {
   let color = document.getElementsByClassName('selected');
@@ -23,7 +24,18 @@ function changeColor (event) {
 }
 
 const pixels = document.getElementsByClassName('pixel');
-
 for (let element of pixels) {
   element.addEventListener('click', changeColor);
 };
+
+
+
+function clearBoard (event) {
+  const pixels = document.getElementsByClassName('pixel');
+  for (let element of pixels) {
+    element.style.background = 'white';
+  };
+}
+
+const button = document.getElementById('clear-board');
+button.addEventListener('click', clearBoard);
