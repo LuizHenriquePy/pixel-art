@@ -60,6 +60,19 @@ function changeBoardSize (event) {
 };
 
 
+function chooseColorFromPalette () {
+  const palette = document.getElementsByClassName('color');
+  for (let index = 1; index < 4; index += 1) {
+    const characters = '0123456789ABCDEF';
+    let code = '#';
+    for (let index2 = 0; index2 < 6; index2 += 1) {
+      let position = Math.floor(Math.random() * 16)
+      code += characters[position];
+    }
+    palette[index].style.backgroundColor = code;
+  }
+}
+
 
 // Selected color
 const colors = document.getElementsByClassName('color');
@@ -75,4 +88,5 @@ buttonClearBoard.addEventListener('click', clearBoard);
 const buttonChangeBoardSize = document.getElementById('generate-board');
 buttonChangeBoardSize.addEventListener('click', changeBoardSize);
 
+chooseColorFromPalette();
 createBoard(5);
