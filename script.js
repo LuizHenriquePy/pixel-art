@@ -17,6 +17,7 @@ function createBoard (value) {
   const pixelsBoard = document.getElementById('pixel-board');
   for (let index = 0; index < value; index += 1) {
     let div = document.createElement('div');
+    div.className = 'container';
     pixelsBoard.appendChild(div);
     for (let index = 0; index < value; index += 1) {
       let pixel = document.createElement('div');
