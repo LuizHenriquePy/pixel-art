@@ -1,23 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.color {
+header {
+  text-align: center;
+  font-size: 25px;
+  background-color: aqua;
+}
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article #config {
+  width: 320px;
+}
+
+article .btn {
+  padding: 10px;
+  border-radius: 20px;
   border: 1px solid black;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
 }
 
-#pixel-board {
+article #pixel-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+article #pixel-board #board {
   width: 500px;
   height: 500px;
   display: flex;
   flex-direction: row;
 }
 
-.container {
+article #pixel-board #div-selected-color {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+article #pixel-board #div-selected-color .color {
+  margin-left: 5px;
+}
+
+article #color-palette {
+  width: 320px;
+}
+
+article #color-palette #fixed-color-palette {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article #color-palette #random-color-palette {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+  border: 1px solid black;
+}
+
+.column {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -27,4 +84,9 @@
   background-color: white;
   border: 1px solid black;
   flex-grow: 1;
+}
+
+.title {
+  margin-top: 25px;
+  margin-bottom: 5px;
 }

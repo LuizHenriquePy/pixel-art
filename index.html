@@ -1,30 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pixel Art</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 id="title">Paleta de Cores</h1>
-  <section id="color-palette">
-    <div class="color selected" style="background-color:black"></div>
-    <div class="color"></div>
-    <div class="color"></div>
-    <div class="color"></div>
-  </section>
+  <header>
+    <h1>Pixel Art</h1>
+  </header>
 
-  <button id="clear-board">Limpar</button>
-  <div>
-    <input type="number" min="1" id="board-size" placeholder="Digite tamanho do pixel">
-    <button id="generate-board">VQV</button>
-  </div>
+  <article>
+    <section id="config">
+      <h2 class="title">Tools</h2>
+      <div id="div-buttons-config">
+        <button class="btn" id="button-bucket">Bucket</button>
+        <button class="btn" id="button-clear">Clear</button>
+      </div>
+      <h2 class="title">choose board size</h2>
+      <div id="div-choose-board-size">
+        <input type="range" min="5" max="50" value="5" id="range-board-size" placeholder="Digite tamanho do pixel">
+        <p id="board-size-view">5px X 5px</p>
+      </div>
+      <h2 class="title">About me</h2>
+      <div id="links">
+        <a href="https://github.com/LuizHenriquePy" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/luizhenriquepy/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  
+    <section id="pixel-board">
+      <div id="board">
+      </div>
+      <div id="div-selected-color">
+        <h2>Selected color:</h2>
+        <div class="color" id="selected-color-view"></div>
+      </div>
+    </section>
 
-  <section id="pixel-board">
-  </section>
-
+    <section id="color-palette">
+      <h2 class="title">Random color</h2>
+      <div id="random-color-palette">
+      </div>
+      <h2 class="title">Fixed color</h2>
+      <div id="fixed-color-palette">
+      </div>
+    </section>  
+  </article>
   <script src="script.js"></script>
 </body>
 </html>
