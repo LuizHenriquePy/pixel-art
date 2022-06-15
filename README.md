@@ -4,8 +4,8 @@ Site criado com HTML, CSS e JavaScript que permite a criação de simples pixel 
 
 ## Dependências e instalação
 O projeto não possui dependência por ser JavaScript puro. <br>
-Acesse o arquivo index.html para executar o projeto.
-
+Acesse o arquivo index.html para executar o projeto. <br>
+Ou acesse o [site do projeto](https://luizhenriquepy.github.io/pixels-art/).
 ## Post no LinkedIn
-Nesse post fala mais sobre os desafios e aprendizados que tive na construção desse projeto. <br>
+Nesse post falo mais sobre os desafios e aprendizados que tive na construção desse projeto. <br>
 Link: 
