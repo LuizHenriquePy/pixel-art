@@ -1,4 +1,5 @@
 # Pixels Art
+![pixel-art](https://user-images.githubusercontent.com/66449676/173832034-8f8e59b9-031a-4066-81c7-74c947b388ab.jpg)
 Site criado com HTML, CSS e JavaScript que permite a criação de simples pixel art.
 
 ## Dependências e instalação
