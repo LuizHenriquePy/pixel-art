@@ -7,5 +7,4 @@ O projeto não possui dependência por ser JavaScript puro. <br>
 Acesse o arquivo index.html para executar o projeto. <br>
 Ou acesse o [site do projeto](https://luizhenriquepy.github.io/pixels-art/).
 ## Post no LinkedIn
-Nesse post falo mais sobre os desafios e aprendizados que tive na construção desse projeto. <br>
-Link: 
+[Nesse post](https://www.linkedin.com/posts/luizhenriquepy_betrybe-vqv-activity-6942826237081890816-foQS?utm_source=linkedin_share&utm_medium=member_desktop_web) falo mais sobre os desafios e aprendizados que tive na construção desse projeto. <br>
